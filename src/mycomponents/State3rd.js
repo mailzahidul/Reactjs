@@ -29,6 +29,8 @@ class State3rd extends React.Component{
     render(){
         return(
             <div>
+                <h1>3rd State Function {this.props.name}</h1>
+                <h1>3rd State Function {this.props.name}</h1>
                 <h1>3rd State Function {this.state.name}</h1>
                 <h1>3rd State Function {this.state.identity.mina}</h1>
                 <button onClick={this.click.bind(this,"This is")}>3rd state</button>

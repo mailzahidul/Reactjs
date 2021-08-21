@@ -8,6 +8,7 @@ import Class2nd from './mycomponents/Class2nd';
 import State from './mycomponents/State';
 import Start2nd from './mycomponents/Start2nd';
 import State3rd from './mycomponents/State3rd';
+import SetStateClass from './mycomponents/SetStateClass';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Class2nd/>
       <State/>
       <Start2nd/>
-      <State3rd/>
+      <State3rd name="show props"/>
+      <SetStateClass/>
     </div>
   );
 }
