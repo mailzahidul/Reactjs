@@ -9,6 +9,7 @@ import State from './mycomponents/State';
 import Start2nd from './mycomponents/Start2nd';
 import State3rd from './mycomponents/State3rd';
 import SetStateClass from './mycomponents/SetStateClass';
+import IfStateClass from './mycomponents/IfStateClass';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Start2nd/>
       <State3rd name="show props"/>
       <SetStateClass/>
+      <IfStateClass/>
     </div>
   );
 }
